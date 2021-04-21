@@ -46,10 +46,10 @@ function renderLicenseLink(license) {
       linkString = 'https://www.boost.org/LICENSE_1_0.txt';
       break;
     default:
-      badgeString ='';
+      linkString ='';
       break;  
   }
-  return badgeString;
+  return linkString;
 }
 
 // TODO: Create a function that returns the license section of README
@@ -63,18 +63,40 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   let badgeString = renderLicenseBadge(data.license)
   let statement = renderLicenseSection(data.license)
-  let linkString = renderLicenseLink(data.license)
-  return `# 
+  let linkString = renderLicenseLink(data.license) // come back
+  return `# ${data.name}
+
 ${badgeString}
-${data.name}
-${data.github}
-${data.email}
+
+# Table of Contents 
+    [Installation](#Installation)
+    [Tests](#Tests)
+    [Usage](#Usage)
+    [Contributing](#Contributing)
+    [Questions](#Questions)
+    [License](#License) 
+    [Description](#Description)
+
 # Description
 ${data.description} 
+
+# Installation
 ${data.installation} 
+
+# Tests
 ${data.tests}
+
+# Usage
 ${data.usage}
+
+# Contributing 
 ${data.contributing}
+
+# Questions
+${data.github}
+${data.email}
+
+# License 
 ${statement}
 `;
 
