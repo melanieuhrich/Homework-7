@@ -69,13 +69,13 @@ function generateMarkdown(data) {
 ${badgeString}
 
 # Table of Contents 
-  - [Installation](#Installation)
-  -  [Tests](#Tests)
-  -  [Usage](#Usage)
-  -  [Contributing](#Contributing)
-  -  [Questions](#Questions)
-  -  [License](#License) 
-  -  [Description](#Description)
+  - [Installation](# Installation)
+  -  [Tests](# Tests)
+  -  [Usage](# Usage)
+  -  [Contributing](# Contributing)
+  -  [Questions](# Questions)
+  -  [License](# License) 
+  -  [Description](# Description)
 
 # Description
 ${data.description} 
