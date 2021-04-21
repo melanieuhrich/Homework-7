@@ -3,13 +3,13 @@
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
 # Table of Contents 
-    [Installation](#Installation)
-    [Tests](#Tests)
-    [Usage](#Usage)
-    [Contributing](#Contributing)
-    [Questions](#Questions)
-    [License](#License) 
-    [Description](#Description)
+  - [Installation](# Installation)
+  -  [Tests](# Tests)
+  -  [Usage](# Usage)
+  -  [Contributing](# Contributing)
+  -  [Questions](# Questions)
+  -  [License](# License) 
+  -  [Description](# Description)
 
 # Description
 mel 
@@ -24,7 +24,7 @@ mel
 mel
 
 # Contributing 
-mel
+georgie
 
 # Questions
 mel
