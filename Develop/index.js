@@ -30,7 +30,7 @@ const questions = [
         type: 'list',
         message: 'What kind of license should your project have?',
         name: 'license',
-        choices: ['Apache', 'GNU GPL v3', 'BSD 3', 'MIT', 'Boost', 'None'] //come back
+        choices: ['Apache', 'GNU GPL v3', 'BSD 3', 'MIT', 'Boost', 'None']
     },
     {
         type: 'input',
@@ -57,7 +57,6 @@ const questions = [
 inquirer 
     .prompt(questions) 
     .then((data) => {
-        console.log(data.name);
         fs.writeFile('README.md', generateMarkdown(data), (error) => 
         error? console.error(error) : console.log('Generating README...'))
     })

@@ -73,17 +73,14 @@ ${data.description}
 
 # Table of Contents 
   -   [Installation](#Installation)
-  -   [Tests](#Tests)
   -   [Usage](#Usage)
   -   [Contributing](#Contributing)
+  -   [Tests](#Tests)
   -   [Questions](#Questions)
   -   [License](#License) 
 
 # Installation
 ${data.installation} 
-
-# Tests
-${data.tests}
 
 # Usage
 ${data.usage}
@@ -91,8 +88,11 @@ ${data.usage}
 # Contributing 
 ${data.contributing}
 
+# Tests
+${data.tests}
+
 # Questions
-${data.github}
+[${data.github}](https://github.com/${data.github}) \n
 ${data.email}
 
 # License 

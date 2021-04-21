@@ -1,23 +1,20 @@
 # mel
 
-![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)
 
 # Description
 mel 
 
 # Table of Contents 
   -   [Installation](#Installation)
-  -   [Tests](#Tests)
   -   [Usage](#Usage)
   -   [Contributing](#Contributing)
+  -   [Tests](#Tests)
   -   [Questions](#Questions)
   -   [License](#License) 
 
 # Installation
-mel 
-
-# Tests
-mel
+npm i 
 
 # Usage
 mel
@@ -25,9 +22,13 @@ mel
 # Contributing 
 mel
 
+# Tests
+npm tester
+
 # Questions
-mel
-mel
+[melanieuhrich](https://github.com/melanieuhrich) 
+
+melanieuhrich13@gmail.com
 
 # License 
-This project uses the following license: [Apache](https://opensource.org/licenses/Apache-2.0).
+This project uses the following license: [BSD 3](https://opensource.org/licenses/BSD-3-Clause).
