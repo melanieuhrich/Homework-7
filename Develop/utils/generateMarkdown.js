@@ -68,17 +68,16 @@ function generateMarkdown(data) {
 
 ${badgeString}
 
+# Description
+${data.description} 
+
 # Table of Contents 
-  -   [Description](#Description)
   -   [Installation](#Installation)
   -   [Tests](#Tests)
   -   [Usage](#Usage)
   -   [Contributing](#Contributing)
   -   [Questions](#Questions)
   -   [License](#License) 
-
-# Description
-${data.description} 
 
 # Installation
 ${data.installation} 
